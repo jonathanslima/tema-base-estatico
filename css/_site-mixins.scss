@@ -1,0 +1,25 @@
+/* MIXINS AND FUNCTIONS ------------------------------------------------*/
+
+@mixin opacity($value){
+	$IEValue: $value*100;
+	opacity: $value;
+	filter: alpha(opacity=$IEValue);
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content};
+  &:-moz-placeholder {@content};
+  &::-moz-placeholder {@content};
+  &:-ms-input-placeholder {@content};
+}
+
+/* HELPERS -----------------------------------------------------------*/
+
+.align-vertical {
+  position: relative;
+  top: 50%;
+}
+
+.trans{
+	transition: all .25s ease-in-out;
+}

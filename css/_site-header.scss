@@ -1,0 +1,27 @@
+/* HEADER -----------------------------------------------------------*/
+
+.logo{
+	margin: 10px 0;
+	display: block;
+	line-height: 0;
+	position: relative;
+	overflow: hidden;
+	.text{
+		display: block;
+		position: absolute;
+		margin-left: -999em;
+	}
+}
+
+.logo-a{
+}
+
+/* MENU -----------------------------------------------------------*/
+
+.nav{
+	margin-left: -20px;
+	li{
+		float: left;
+		margin-left: 20px;
+	}
+}

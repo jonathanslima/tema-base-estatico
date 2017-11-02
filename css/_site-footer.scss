@@ -1,0 +1,29 @@
+/* FOOTER -----------------------------------------------------------*/
+
+.footer{
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #dadada;
+}
+
+.footer-content{
+	.footer-sign{
+		float: left;
+	}
+	.bold{
+		float: right;
+	}
+}
+
+.footer-sign{
+
+}
+
+.bold{
+	background-image: url(../img/logo-bold.png);
+	display: block;
+	height: 15px;
+	width: 47px;
+	text-indent: -999em;
+}

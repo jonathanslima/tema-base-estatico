@@ -1,0 +1,25 @@
+{
+  "name": "bold",
+  "authors": [
+    "Jonathan <ola@jonathanslima.com.br>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "bourbon": "^4.2.7",
+    "font-awesome": "^4.6.3",
+    "jquery.maskedinput": "^1.4.1",
+    "slick-carousel": "^1.6.0",
+    "mdi": "^1.7.22"
+  }
+}
