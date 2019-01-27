@@ -1,7 +1,7 @@
 {
-  "name": "bold",
+  "name": "jonathan",
   "authors": [
-    "Jonathan <ola@jonathanslima.com.br>"
+    "Jonathan <jonathan633.jl@gmail.com>"
   ],
   "description": "",
   "main": "",
@@ -16,10 +16,6 @@
   ],
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
-    "bourbon": "^4.2.7",
-    "font-awesome": "^4.6.3",
-    "jquery.maskedinput": "^1.4.1",
-    "slick-carousel": "^1.6.0",
     "mdi": "^1.7.22"
   }
 }

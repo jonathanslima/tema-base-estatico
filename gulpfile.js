@@ -11,16 +11,17 @@ gulp.task('browserSync', function() {
     //watch files
     var files = [
     './css/style.css',
-    './includes/*.php',    
-    './*.php',
+    './includes/*.html',    
+    './*.html',
     './js/*.js'
     ];
  
     //initialize browsersync
     browserSync.init(files, {
-    //browsersync with a php server
-    proxy: "estatico.dev",
-    notify: false
+      //browsersync with a php server
+      //proxy: "http://localhost:3000",
+      server: "./",
+      notify: false
     });
 });
 

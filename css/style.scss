@@ -1,7 +1,7 @@
 /*!
-Theme Name: Static Theme v 1.0
+Theme Name: Static Theme v 2.0
 Author: Jonathan Lima
-Author URI: http://jonathanslima.com.br/
+Author URI: http://jonathanslima.github.io/
 Description: Este Tema foi produzido para produção de páginas de conteúdo estático
 Version: 4.0 (bower, bootstrap, libsass)
 Project author:
@@ -66,8 +66,6 @@ Date:
 
 //IMPORTS BASE
 @import '../libs/mdi/scss/materialdesignicons.scss';
-@import '../libs/bourbon/app/assets/stylesheets/_bourbon';
-//@import '../libs/flatpickr/dist/flatpickr.min.css';
 
 //SITE ADD ONS
 @import '_site-mixins';
@@ -83,7 +81,6 @@ Date:
 @import '_site-base';
 //PAGES
 @import '_page-home';
-//@import '_page-blog';
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 
